@@ -5,7 +5,7 @@ CreateThread(function()
         local ped = PlayerPedId()
         local coords = GetEntityCoords(ped)
 
-        for k, v in pairs(Config.Parmacystore) do
+        for k, v in pairs(Config.Offlinestore) do
 
             local OFFLINEDist = #(coords - v.position)
 
