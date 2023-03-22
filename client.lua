@@ -13,7 +13,7 @@ CreateThread(function()
                 sleep = 0
                 lib.showTextUI('[E] '.. v.name)
                 if IsControlJustReleased(0, 38) then
-                    ESX.Progressbar(500, 'Checking EMS Duty...', 'info', false)
+                    --PROGBAR OR ANYTHING YOU WANT
                     sleep = 500
                     ESX.TriggerServerCallback('BONGCOUNT-JOB', function(EMSCount)
                         if EMSCount < 1 then
