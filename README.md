@@ -1,7 +1,14 @@
-# ox_inventory-offline-store
-I'll SHARE MY SHIT CODE
-
+# example ox_inventory-offline-store
+ox_inventory/data/shops.lua
+	Pharmacys = {
+		name = 'Pharmacy',
+    inventory = {
+			{ name = 'coughmedicine', price = 100 },
+			{ name = 'nauesamedicine', price = 100 },
+			{ name = 'gingermedicine', price = 100 },
+		}
+	},
 Dependency
-OX_LIB
-OX_INVENTORY
-ESX_EXTENDED
+ox_lib
+ox_inventory
+es_extened
