@@ -1,0 +1,10 @@
+put in ox_inventory/data/shops.lua
+
+Pharmacys = {
+	name = 'Pharmacy',
+  inventory = {
+		{ name = 'coughmedicine', price = 100 },
+		{ name = 'nauesamedicine', price = 100 },
+		{ name = 'gingermedicine', price = 100 }
+	}
+}
